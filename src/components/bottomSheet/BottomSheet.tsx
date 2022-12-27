@@ -1369,7 +1369,7 @@ const BottomSheetComponent = forwardRef<BottomSheet, BottomSheetProps>(
               _keyboardHeight -
                 Math.abs(bottomInset - animatedContainerOffset.value.bottom)
             )
-          : Math.abs(_keyboardHeight - animatedContainerOffset.value.bottom);
+          : 5;
 
         const hasActiveGesture =
           animatedContentGestureState.value === State.ACTIVE ||
