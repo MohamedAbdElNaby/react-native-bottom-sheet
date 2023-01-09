@@ -34,7 +34,6 @@ export interface BottomSheetProps
    * @default 0
    */
   index?: number;
-  currentKeyboardHeight?:number
   /**
    * Points for the bottom sheet to snap to. It accepts array of number, string or mix.
    * String values should be a percentage.
