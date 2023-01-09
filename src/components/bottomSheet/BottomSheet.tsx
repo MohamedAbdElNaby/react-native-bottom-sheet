@@ -308,7 +308,7 @@ const BottomSheetComponent = forwardRef<BottomSheet, BottomSheetProps>(
             animatedKeyboardHeight.value -
               Math.abs(bottomInset - animatedContainerOffset.value.bottom)
           )
-        :props.currentKeyboardHieght|| Math.abs(
+        :props.currentKeyboardHeight|| Math.abs(
              animatedKeyboardHeight.value - animatedContainerOffset.value.bottom
            );
     }, [$modal, bottomInset]);
